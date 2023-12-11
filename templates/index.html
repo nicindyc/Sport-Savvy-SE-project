@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportSavvy - Home</title>
+</head>
+<body>
+    <h1>Welcome to SportSavvy</h1>
+    <form action="/predict" method="post">
+        <label for="player">Player:</label>
+        <input type="text" name="player" required><br>
+
+        <label for="HomeTeam">Home Team:</label>
+        <input type="text" name="HomeTeam" required><br>
+
+        <label for="AwayTeam">Away Team:</label>
+        <input type="text" name="AwayTeam" required><br>
+
+        <label for="IL_List">IL List:</label>
+        <input type="number" name="IL_List" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
